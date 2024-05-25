@@ -1,0 +1,13 @@
+/*Slider */
+.carousel-item {
+    height: 65vh;
+    min-height: 500px; /*slider hieght*/
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+    transition-duration: 0.5s
+  }

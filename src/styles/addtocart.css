@@ -1,0 +1,138 @@
+
+
+.spare-part-info {
+    margin-top: 20px;
+}
+
+.spare-part-info h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.spare-part-info p {
+    margin-bottom: 10px;
+}
+
+.spare-part-info select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    width: calc(100% - 22px); 
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.quantity-box {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quantity-box:hover {
+    background-color: #ccc;
+}
+
+.middle-box {
+    background-color: white;
+}
+
+.add-to-cart-btn {
+    background-color: #00b300;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: calc(100% - 22px); 
+}
+
+.add-to-cart-btn:hover {
+    background-color: #08cc08;
+}
+
+.divider {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+
+
+.card {
+margin: auto;
+max-width: 950px;
+width: 90%;
+box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 1rem;
+border: transparent;
+}
+
+@media (max-width: 767px) {
+.card {
+margin: 3vh auto;
+}
+}
+
+.cart {
+background-color: #cac8c8;
+padding: 4vh 5vh;
+border-bottom-left-radius: 1rem;
+border-top-left-radius: 1rem;
+}
+
+@media (max-width: 767px) {
+.cart {
+padding: 4vh;
+border-bottom-left-radius: unset;
+border-top-right-radius: 1rem;
+}
+}
+
+.summary {
+background-color: #f2f1f1;
+border-top-right-radius: 1rem;
+border-bottom-right-radius: 1rem;
+padding: 4vh;
+color: rgb(65, 65, 65);
+}
+
+@media (max-width: 767px) {
+.summary {
+border-top-right-radius: unset;
+border-bottom-left-radius: 1rem;
+}
+}
+
+.summary .col-2 {
+padding: 0;
+}
+
+.summary .col-10 {
+padding: 0;
+}
+
+.star-rating {
+font-size: 30px;
+}
+
+.star-rating .star {
+color: gray;
+cursor: pointer;
+}
+
+.star-rating .star:hover,
+.star-rating .star.active {
+color: #ffe234;
+}
